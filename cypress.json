@@ -1,0 +1,10 @@
+{
+  "defaultCommandTimeout": 20000,
+  "baseUrl": "https://www.ducati.com",
+  "chromeWebSecurity": false,
+  "env": {
+    "myFirstProperty": "bar",
+    "mySecondProperty": true
+  },
+  "ignoreTestFiles": ["ducati.js", "v4r.js"]
+}

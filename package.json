@@ -1,0 +1,21 @@
+{
+  "name": "cypress-maks-roma",
+  "version": "1.0.0",
+  "description": "Test project for Cypress knoladge sharing session",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "author": "Maks i Roma ;)",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.3.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^1.12.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
