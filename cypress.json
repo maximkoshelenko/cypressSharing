@@ -11,6 +11,8 @@
     "v4r.js",
     "*.js"
   ],
+  "screenshotsFolder": "cypress/snapshots/actual",
+  "trashAssetsBeforeRuns": true,
   "reporter": "cypress-multi-reporters",
   "reporterOptions": {
     "reporterEnabled": "mochawesome, spec",
