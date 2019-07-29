@@ -2,3 +2,10 @@ node_modules
 package-lock.json
 cypress/screenshots
 cypress/videos
+cypress/reports/junit
+cypress/reports/mocha
+mochareports/assets
+mochareports/report.html
+mochareports/report.json
+cypress/reports/cucumber
+html_reporter

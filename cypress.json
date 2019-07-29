@@ -6,5 +6,21 @@
     "myFirstProperty": "bar",
     "mySecondProperty": true
   },
-  "ignoreTestFiles": ["ducati.js", "v4r.js"]
+  "ignoreTestFiles": [
+    "ducati.js",
+    "v4r.js",
+    "*.js"
+  ],
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "reporterEnabled": "mochawesome, spec",
+    "mochawesomeReporterOptions": {
+        "reportDir": "cypress/reports/mocha",
+        "quiet": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+    }
+  }
 }
