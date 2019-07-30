@@ -8,5 +8,5 @@ Given('I open Ducati v4r page', () => {
 })
 
 Then('I see video start playing', () => {
-  cy.get('video', { log: false }).should('have.length', 1)
+  cy.get('video', { log: false }).should('have.length', 0)
 })

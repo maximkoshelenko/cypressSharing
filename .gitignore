@@ -9,3 +9,4 @@ mochareports/report.html
 mochareports/report.json
 cypress/reports/cucumber
 html_reporter
+cypress/snapshots/actual

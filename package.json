@@ -31,7 +31,7 @@
     "cucumberJson": {
       "generate": true,
       "outputFolder": "cypress/reports/cucumber",
-      "filePrefix": "",
+      "filePrefix": "super",
       "fileSuffix": ".cucumber"
     }
   }
