@@ -11,3 +11,4 @@ Feature: Ducati
   Scenario: Opening Ducati home page 2
     Given I open Ducati v4r page
     Then I see video start playing
+    And  I see video start playing1
