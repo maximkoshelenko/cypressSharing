@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress": "cypress open",
+    "cypressAndCucumberWithReport": "npx cypress run && node generate.js",
     "combine-reports": "mochawesome-merge --reportDir cypress/reports/mocha > mochareports/report.json",
     "generate-report": "marge mochareports/report.json -f report -o mochareports"
   },
