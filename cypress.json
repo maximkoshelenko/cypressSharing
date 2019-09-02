@@ -8,7 +8,8 @@
   },
   "ignoreTestFiles": [
     "ducati.js",
-    "v4r.js"
+    "v4r.js",
+    "*.js"
   ],
   "screenshotsFolder": "cypress/snapshots/actual",
   "trashAssetsBeforeRuns": true,
