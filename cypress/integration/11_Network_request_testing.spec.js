@@ -1,9 +1,8 @@
 /// <reference types="Cypress" />
 
 context('Network request', () => {
-    it('Visual', () => {
-        cy
-            .request('https://jsonplaceholder.typicode.com/todos/1')
+    it('Response ', () => {
+        cy.request('https://jsonplaceholder.typicode.com/todos/1')
             .then((resp) => {
                 expect(resp.status).equal(200);
                 expect(resp.body.title).equal('delectus aut autem');
