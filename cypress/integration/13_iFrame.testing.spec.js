@@ -7,8 +7,8 @@ context('iFrame testing', () => {
             cy.get("iframe[height]").then( $iframe => {
                 const $doc = $iframe.contents();
                 cy.wrap( $doc.find("#paymentNumber") )
-                .type( "1234")
-                .should('have.value', "1234");
+                .type( "1234567812345678")
+                .should('have.value', "1234 5678 1234 5678");
             });
     })
 });
