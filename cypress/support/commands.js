@@ -40,3 +40,11 @@ Cypress.Commands.add("login", (email, password) => {
     cy.get('#sfid-submit').click()
     cy.get('.logout').contains('Logout')
 })
+
+Cypress.Commands.add('iframe', { prevSubject: 'element' }, $iframe => {
+    return new Cypress.Promise(resolve => {
+        $iframe.on('load', () => {
+            resolve($iframe.contents().find('body'));
+        });
+    });
+});
